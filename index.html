@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main class = "webpage">
+        <h1> Guest List Manager</h1>  
+
+        <section class = "input-section">
+          <label for = "guest-name">Enter guest name:</label>
+          <input type = "text" id = "guest-name">
+          <br/>
+          <button onclick = "addGuest()">Add Guest</button>
+        </section>
+
+
+        <section class = "guest-section">
+          <ul id = "guest-list">
+
+          </ul>
+        </section>
+          <p id = "guest-message"></p>
+    </main>  
+  </body>
+</html>
